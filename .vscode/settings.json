@@ -1,0 +1,16 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/jonask/Music/Daisy/ProteusDaisy/build",
+            "binaryPath": "/Users/jonask/Music/Daisy/ProteusDaisy/build/ProteusDaisy.elf",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "cstring": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "cmath": "cpp"
+    }
+}
