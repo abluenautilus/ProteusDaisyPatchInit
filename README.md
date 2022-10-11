@@ -4,11 +4,11 @@ Proteus is a generative sequencer. It creates a melody, then loops that melody f
 
 ### Controls
 
-**CV_1: Length** - Sets the sequence length from 1 to 32 steps. You can change the sequence length on the fly without disturbing the melody. For instance, you can make it shorter and then longer again without changing the underlying melody. There is always a 32 step sequence in memory whether you are looping the whole thing or not. 
+**Knob CV_1: Length** - Sets the sequence length from 1 to 32 steps. You can change the sequence length on the fly without disturbing the melody. For instance, you can make it shorter and then longer again without changing the underlying melody. There is always a 32 step sequence in memory whether you are looping the whole thing or not. 
 
-**CV_2: Density** - This controls the density of the melodies. As you turn this knob towards 100, the probability of rest notes decreases to 0 and all the steps will be filled with notes. Density is changed dynamically; every time the parameter changes, each note's probabilty of becoming a rest is independently re-calculated according to this parameter. 
+**Knob CV_2: Density** - This controls the density of the melodies. As you turn this knob towards 100, the probability of rest notes decreases to 0 and all the steps will be filled with notes. Density is changed dynamically; every time the parameter changes, each note's probabilty of becoming a rest is independently re-calculated according to this parameter. 
 
-**CV_3: Scale** - Sets the scale that notes are drawn from. Currently scales are, from clockwise to counter-clockwise:
+**Knob CV_3: Scale** - Sets the scale that notes are drawn from. Currently scales are, from clockwise to counter-clockwise:
 Major
 Natural Minor
 Harmonic Minor
@@ -18,15 +18,13 @@ Dorian
 Mixolydian
 Chromatic
 
-**CV_4: Gate** - This is the length of the gate output as a fraction of the incoming clock time (average trigger-to-trigger time).
+**Knob CV_4: Gate** - This is the length of the gate output as a fraction of the incoming clock time (average trigger-to-trigger time).
 
 **Switch** - When in the top position, Proteus always has some chance of creating a new melody based on the underlying probability function that increases with each loop. When switched to the bottom position, that probability will freeze in place and Proteus will not ever generate a new melody. 
 
 **Button (New sequence)** - Pushing the center button will cause Proteus to immediately generate a new melody. 
 
 ### Inputs
-
-Len, Lambda, Density, Mutate, Scale, Gate, and Octave are CV controls for their respective parameters. 
 
 **B10/gate_in_1: CLOCK** - This is the clock input. Each trigger incoming on this port advances the sequence one step. 
 
