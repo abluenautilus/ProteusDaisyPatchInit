@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
   28:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
   29:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
   30:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) MemManage_Handler() 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 2
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 2
 
 
   31:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
   85:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
   86:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) WWDG_IRQHandler() 
   87:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 3
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 3
 
 
   88:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  142:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) EXTI1_IRQHandler() 
  143:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
  144:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 4
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 4
 
 
  145:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  199:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
  200:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  201:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 5
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 5
 
 
  202:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void DMA1_Stream3_IRQHandler();
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  256:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  257:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  258:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void FDCAN1_IT1_IRQHandler();
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 6
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 6
 
 
  259:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  313:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  314:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void TIM2_IRQHandler();
  315:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 7
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 7
 
 
  316:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  370:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void SPI1_IRQHandler();
  371:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  372:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 8
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 8
 
 
  373:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  427:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  428:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
  429:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 9
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 9
 
 
  430:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) TIM8_UP_TIM13_IRQHandler() 
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  484:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
  485:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
  486:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) SPI3_IRQHandler() 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 10
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 10
 
 
  487:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  541:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
  542:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMA2_Stream2_IRQHandler() 
  543:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 11
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 11
 
 
  544:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  598:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMA2_Stream6_IRQHandler() 
  599:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
  600:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 12
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 12
 
 
  601:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  655:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
  656:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  657:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 13
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 13
 
 
  658:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void OTG_HS_WKUP_IRQHandler();
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  712:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  713:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  714:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void UART8_IRQHandler();
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 14
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 14
 
 
  715:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  769:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  770:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void DMA2D_IRQHandler();
  771:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 15
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 15
 
 
  772:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  826:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void SPDIF_RX_IRQHandler();
  827:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  828:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 16
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 16
 
 
  829:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  883:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  884:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
  885:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 17
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 17
 
 
  886:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) HRTIM1_TIMB_IRQHandler() 
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  940:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** }
  941:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
  942:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DFSDM1_FLT2_IRQHandler() 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 18
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 18
 
 
  943:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  997:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 
  998:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) MDIOS_WKUP_IRQHandler() 
  999:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 19
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 19
 
 
 1000:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1054:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMAMUX2_OVR_IRQHandler() 
 1055:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
 1056:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 20
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 20
 
 
 1057:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1111:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** {
 1112:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
 1113:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 21
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 21
 
 
 1114:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void BDMA_Channel6_IRQHandler();
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1168:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
 1169:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
 1170:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//	extern "C" void LPUART1_IRQHandler();
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 22
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 22
 
 
 1171:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1225:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void EXTI3_IRQHandler()               __attribute__ ((weak, alias ("Default_Handler")));
 1226:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void EXTI4_IRQHandler()               __attribute__ ((weak, alias ("Default_Handler")));
 1227:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void DMA1_Stream0_IRQHandler()        __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 23
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 23
 
 
 1228:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void DMA1_Stream1_IRQHandler()        __attribute__ ((weak, alias ("Default_Handler")));
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1282:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void USART6_IRQHandler()              __attribute__ ((weak, alias ("Default_Handler")));
 1283:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void I2C3_EV_IRQHandler()             __attribute__ ((weak, alias ("Default_Handler")));
 1284:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void I2C3_ER_IRQHandler()             __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 24
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 24
 
 
 1285:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void OTG_HS_EP1_OUT_IRQHandler()      __attribute__ ((weak, alias ("Default_Handler")));
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1339:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void BDMA_Channel1_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
 1340:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void BDMA_Channel2_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
 1341:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void BDMA_Channel3_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 25
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 25
 
 
 1342:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** void BDMA_Channel4_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1396:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&FDCAN2_IT0_IRQHandler,
 1397:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&FDCAN1_IT1_IRQHandler,
 1398:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&FDCAN2_IT1_IRQHandler,
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 26
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 26
 
 
 1399:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&EXTI9_5_IRQHandler,
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1453:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&OTG_HS_IRQHandler,
 1454:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&DCMI_IRQHandler,
 1455:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&CRYP_IRQHandler,
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 27
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 27
 
 
 1456:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&HASH_RNG_IRQHandler,
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
 1510:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&BDMA_Channel5_IRQHandler,
 1511:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&BDMA_Channel6_IRQHandler,
 1512:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&BDMA_Channel7_IRQHandler,
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 28
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 28
 
 
 1513:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	&COMP1_IRQHandler,
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
   34              		@ frame_needed = 0, uses_anonymous_args = 0
   35              	.L2:
 1562:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//If you get stuck here, your code is missing a handler for some interrupt.
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 29
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 29
 
 
 1563:/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/core/startup_stm32h750xx.c **** 	//Define a 'DEBUG_DEFAULT_INTERRUPT_HANDLERS' macro via VisualGDB Project Properties and rebuild y
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
   88              		.thumb_set MDMA_IRQHandler,Default_Handler
   89              		.weak	JPEG_IRQHandler
   90              		.thumb_set JPEG_IRQHandler,Default_Handler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 30
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 30
 
 
   91              		.weak	MDIOS_IRQHandler
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  145              		.weak	LPTIM1_IRQHandler
  146              		.thumb_set LPTIM1_IRQHandler,Default_Handler
  147              		.weak	QUADSPI_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 31
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 31
 
 
  148              		.thumb_set QUADSPI_IRQHandler,Default_Handler
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  202              		.thumb_set ETH_IRQHandler,Default_Handler
  203              		.weak	DMA2_Stream4_IRQHandler
  204              		.thumb_set DMA2_Stream4_IRQHandler,Default_Handler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 32
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 32
 
 
  205              		.weak	DMA2_Stream3_IRQHandler
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  259              		.weak	I2C1_EV_IRQHandler
  260              		.thumb_set I2C1_EV_IRQHandler,Default_Handler
  261              		.weak	TIM4_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 33
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 33
 
 
  262              		.thumb_set TIM4_IRQHandler,Default_Handler
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  316              		.thumb_set RTC_WKUP_IRQHandler,Default_Handler
  317              		.weak	TAMP_STAMP_IRQHandler
  318              		.thumb_set TAMP_STAMP_IRQHandler,Default_Handler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 34
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 34
 
 
  319              		.weak	PVD_AVD_IRQHandler
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  368 000a 0B49     		ldr	r1, .L8+8
  369 000c FFF7FEFF 		bl	memcpy
  370              	.LVL1:
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 35
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 35
 
 
  371              	.L5:
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  413              		.global	g_pfnVectors
  414              		.section	.isr_vector,"aw"
  415              		.align	2
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 36
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 36
 
 
  418              	g_pfnVectors:
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  472 00d4 00000000 		.word	USART1_IRQHandler
  473 00d8 00000000 		.word	USART2_IRQHandler
  474 00dc 00000000 		.word	USART3_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 37
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 37
 
 
  475 00e0 00000000 		.word	EXTI15_10_IRQHandler
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  529 01b8 00000000 		.word	CEC_IRQHandler
  530 01bc 00000000 		.word	I2C4_EV_IRQHandler
  531 01c0 00000000 		.word	I2C4_ER_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 38
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 38
 
 
  532 01c4 00000000 		.word	SPDIF_RX_IRQHandler
@@ -2278,178 +2278,178 @@ ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 1
  586              	.Letext0:
  587              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
  588              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 39
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 39
 
 
  589              		.file 4 "<built-in>"
  590              		.file 5 "/Users/jonask/Music/Daisy/DaisyExamples/libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Includ
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 40
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 startup_stm32h750xx.c
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:19     .text.Default_Handler:0000000000000000 $t
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 Default_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 WAKEUP_PIN_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SAI4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 ECC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 CRS_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPUART1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPTIM5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPTIM4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPTIM3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPTIM2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 COMP1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel7_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel6_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMAMUX2_OVR_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 ADC3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HSEM1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SDMMC2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 MDMA_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 JPEG_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 MDIOS_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 MDIOS_WKUP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM17_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM16_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM15_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SWPMI1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SAI3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_FLT_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIME_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMD_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMB_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMA_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HRTIM1_Master_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMAMUX1_OVR_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_FS_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_FS_WKUP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_FS_EP1_IN_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_FS_EP1_OUT_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPDIF_RX_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C4_ER_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C4_EV_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 CEC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LPTIM1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 QUADSPI_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 41
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:19     .text.Default_Handler:0000000000000000 $t
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 Default_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 WAKEUP_PIN_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SAI4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 ECC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 CRS_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPUART1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPTIM5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPTIM4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPTIM3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPTIM2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 COMP1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel7_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel6_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BDMA_Channel0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMAMUX2_OVR_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 ADC3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HSEM1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SDMMC2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 MDMA_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 JPEG_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 MDIOS_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 MDIOS_WKUP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM17_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM16_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM15_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SWPMI1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SAI3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DFSDM1_FLT0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_FLT_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIME_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMD_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMB_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_TIMA_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HRTIM1_Master_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMAMUX1_OVR_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_FS_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_FS_WKUP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_FS_EP1_IN_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_FS_EP1_OUT_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPDIF_RX_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C4_ER_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C4_EV_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 CEC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LPTIM1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 QUADSPI_IRQHandler
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 41
 
 
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SAI2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2D_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LTDC_ER_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 LTDC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SAI1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI6_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 UART8_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 UART7_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FPU_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HASH_RNG_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 CRYP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DCMI_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_HS_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_HS_WKUP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_HS_EP1_IN_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 OTG_HS_EP1_OUT_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C3_ER_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C3_EV_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 USART6_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream7_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream6_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FDCAN_CAL_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 ETH_WKUP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 ETH_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM7_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM6_DAC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 UART5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 UART4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SDMMC1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FMC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream7_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM8_CC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM8_TRG_COM_TIM14_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM8_UP_TIM13_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM8_BRK_TIM12_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 RTC_Alarm_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI15_10_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 USART3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 USART2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 USART1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SPI1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C2_ER_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C2_EV_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C1_ER_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 I2C1_EV_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM4_IRQHandler
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 42
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SAI2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2D_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LTDC_ER_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 LTDC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SAI1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI6_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 UART8_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 UART7_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FPU_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HASH_RNG_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 CRYP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DCMI_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_HS_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_HS_WKUP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_HS_EP1_IN_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 OTG_HS_EP1_OUT_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C3_ER_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C3_EV_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 USART6_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream7_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream6_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FDCAN_CAL_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 ETH_WKUP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 ETH_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA2_Stream0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM7_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM6_DAC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 UART5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 UART4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SDMMC1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FMC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream7_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM8_CC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM8_TRG_COM_TIM14_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM8_UP_TIM13_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM8_BRK_TIM12_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 RTC_Alarm_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI15_10_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 USART3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 USART2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 USART1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SPI1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C2_ER_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C2_EV_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C1_ER_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 I2C1_EV_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM4_IRQHandler
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 42
 
 
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM1_CC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM1_TRG_COM_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM1_UP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TIM1_BRK_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI9_5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FDCAN2_IT1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FDCAN1_IT1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FDCAN2_IT0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FDCAN1_IT0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 ADC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream6_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream5_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI4_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI3_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI2_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI1_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 EXTI0_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 RCC_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 FLASH_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 RTC_WKUP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 TAMP_STAMP_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 PVD_AVD_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 WWDG_IRQHandler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SysTick_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 PendSV_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 DebugMon_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 SVC_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 UsageFault_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 BusFault_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 MemManage_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 HardFault_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:26     .text.Default_Handler:0000000000000000 NMI_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:342    .text.Reset_Handler:0000000000000000 $t
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:349    .text.Reset_Handler:0000000000000000 Reset_Handler
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:405    .text.Reset_Handler:0000000000000030 $d
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:418    .isr_vector:0000000000000000 g_pfnVectors
-/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s:415    .isr_vector:0000000000000000 $d
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM1_CC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM1_TRG_COM_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM1_UP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TIM1_BRK_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI9_5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FDCAN2_IT1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FDCAN1_IT1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FDCAN2_IT0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FDCAN1_IT0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 ADC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream6_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream5_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DMA1_Stream0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI4_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI3_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI2_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI1_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 EXTI0_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 RCC_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 FLASH_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 RTC_WKUP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 TAMP_STAMP_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 PVD_AVD_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 WWDG_IRQHandler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SysTick_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 PendSV_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 DebugMon_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 SVC_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 UsageFault_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 BusFault_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 MemManage_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 HardFault_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:26     .text.Default_Handler:0000000000000000 NMI_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:342    .text.Reset_Handler:0000000000000000 $t
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:349    .text.Reset_Handler:0000000000000000 Reset_Handler
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:405    .text.Reset_Handler:0000000000000030 $d
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:418    .isr_vector:0000000000000000 g_pfnVectors
+/var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s:415    .isr_vector:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 memcpy
@@ -2463,6 +2463,6 @@ _sidata
 _sbss
 _ebss
 _estack
-ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccjHnl6B.s 			page 43
+ARM GAS  /var/folders/0q/sbsy1b4j0g95g3j3ztxp7pdw0000gn/T//ccmWfxwJ.s 			page 43
 
 

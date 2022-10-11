@@ -16,6 +16,7 @@ class Note {
         uint8_t octave;
         uint8_t noteNumMIDI;
         uint8_t toneNum;
+        bool muted;
 
         std::map<std::string,int> noteToNum;
         std::map<int,std::string> numToNote;

@@ -65,11 +65,12 @@ uint8_t restingCount = 0;
 int octaveOffset = 0;
 uint8_t mutationOption = DONT_MUTATE;
 uint8_t repeatsInARow = 0;
-uint8_t maxOctaveOffsetUp = 2;
-uint8_t maxOctaveOffsetDown = 2;
+uint8_t maxOctaveOffsetUp = 1;
+uint8_t maxOctaveOffsetDown = 1;
 int sequenceLength = 16;
 uint8_t sequenceGap = 0;
 double restProbability = 20; //out of 100
+double restProbabilityPrev = 20;
 float octaveChangeProbability = 30;
 float noteChangeProbability = 30;
 uint8_t currentNote = 0;
@@ -160,6 +161,14 @@ void changeNotes(int amount) {
 
     int noteToChange = std::rand() % sequenceLength;
     Note newNote = getRandomNote();
+
+    int noteOnChoice = std::rand() % 100;
+    if (noteOnChoice < restProbability) {
+        newNote.muted = true;
+    } else {
+        newNote.muted = false;
+    }
+
     sequence[noteToChange] = newNote;
 
 }
@@ -261,13 +270,14 @@ void newMelody() {
                 sequence[x] = newNote;
                 prevNote = newNote;
             }
-            prevNote = sequence[x];
-
-        } else {
-            //We have a rest beat
-            Note newNote = Note("rest");
-            sequence[x] = newNote;
-        }
+           
+        } 
+        if (noteOn) {
+			sequence[x].muted = false;
+		} else {
+			sequence[x].muted = true;
+		}
+         prevNote = sequence[x];
 
     }
     //log new seqence
@@ -278,6 +288,17 @@ void newMelody() {
 
 };
 
+void updateRests() {
+    //start at the second step to leave the first one always on
+    for (int x = 1; x < 32; ++x) {
+        int noteOnChoice = std::rand() % 100;
+        if (noteOnChoice < restProbability) {
+            sequence[x].muted = true;
+        } else {
+            sequence[x].muted = false;
+        }
+    }
+}
 
 void doStep() {
 
@@ -287,7 +308,7 @@ void doStep() {
 
     hw.PrintLine("Current note is %s%d voltage %.3f",sequence[currentNote].noteName.c_str(),sequence[currentNote].octave,sequence[currentNote].voltage);
 
-    if (noteToPlay.noteName != "rest") {
+    if (!noteToPlay.muted) {
         //turn gate out on
         hw.WriteCvOut(CV_OUT_1,sequence[currentNote].voltage);
         output_gate.ReTrigger();
@@ -366,21 +387,13 @@ void doStep() {
 
 int processKnobValue(float value, int maxValue) {
 
+    if (value > 1) {value = 1;}
     float voltsPerNum = 1.0/maxValue;
     float rawVal = value/voltsPerNum;
     return std::ceil(rawVal);
 
 }
 
-// void DacCallback(uint16_t **output, size_t size)
-// {
-//     for(size_t i = 0; i < size; i++)
-//     {
-//         output_gate.Process(); //advance the gate
-//         //output[0][i]   = sequence[currentNote].voltage * 4095; /// 4095 scaling? 
-        
-//     }
-// }
 
 static void AudioCallback(AudioHandle::InputBuffer  in,
                           AudioHandle::OutputBuffer out,
@@ -431,10 +444,9 @@ int main(void)
     } 
 
     //Process knobs
-    sequenceLength = processKnobValue(hw.GetAdcValue(CV_1),maxSteps);
+    sequenceLength = processKnobValue(hw.GetAdcValue(CV_1) + hw.GetAdcValue(CV_5),maxSteps);
     scaleNum = processKnobValue(hw.GetAdcValue(CV_3),scaleNames.size());
     if (scaleNum < 1) {scaleNum = 1;}
-    restProbability = 100 - hw.GetAdcValue(CV_2) * 100;
     poisson_lambda = ceil(320/sequenceLength);
 
     //Make first melody
@@ -451,8 +463,8 @@ int main(void)
  
         //Handle button press
         if (button.RisingEdge()) {
-                hw.PrintLine("Button pressed.");
-                newMelody();
+            hw.PrintLine("Button pressed.");
+            newMelody();
         }
 
         //Process toggle switch
@@ -464,16 +476,23 @@ int main(void)
             accumulate = false;
         } 
 
-		//Process knobs
-        sequenceLength = processKnobValue(hw.GetAdcValue(CV_1),maxSteps);
+		//Process knobs and CV
+        sequenceLength = processKnobValue(hw.GetAdcValue(CV_1) + hw.GetAdcValue(CV_5),maxSteps);
         scaleNum = processKnobValue(hw.GetAdcValue(CV_3),scaleNames.size());
         if (scaleNum < 1) {scaleNum = 1;}
-        restProbability = 100 - hw.GetAdcValue(CV_2) * 100;
+        restProbability = 100 - hw.GetAdcValue(CV_2)*100 - hw.GetAdcValue(CV_7)*100;
+        if (restProbability < 0) {restProbability = 0;}
         poisson_lambda = ceil(320/sequenceLength);
+
+        //Check if density changed for live updating
+		if (restProbability != restProbabilityPrev) {
+			updateRests();
+		}
+
+		restProbabilityPrev = restProbability;
 
         //update the gate output
         dsy_gpio_write(&hw.gate_out_1, output_gate.GetCurrentState());
-        
 
         //check for trigger in
         if (hw.gate_in_1.Trig()) {
@@ -489,7 +508,9 @@ int main(void)
                 triggerGapAccumulator += trigToTrigTime;
                 triggerGapAverage = triggerGapAccumulator/numRecentTriggers;
                 triggerGapSeconds = triggerGapAverage / 1000;
-                gateDuration = triggerGapSeconds* hw.GetAdcValue(CV_4);
+                float gateFactor = hw.GetAdcValue(CV_4) + hw.GetAdcValue(CV_8);
+                if (gateFactor > 1) {gateFactor = 1;}
+                gateDuration = triggerGapSeconds * gateFactor;
                 if (gateDuration < 0.01f) { gateDuration = 0.01f;}
             } else {
                  gateDuration = 0.125f;
